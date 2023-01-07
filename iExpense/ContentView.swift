@@ -7,18 +7,22 @@
 
 import SwiftUI
 
+struct User: Codable {
+    let firstName: String
+    let lastName: String
+}
+
 struct ContentView: View {
-    // 1. UserDefaults way to store small amount of data
-//    @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
     
-    // 2. AppStorage works similar to UserDefaults and you can use them together, but AppStorage cannot hold complex data like from structs.
-    @AppStorage("tapCount") private var tapCount = 0
+    @State private var user = User(firstName: "Matt", lastName: "Dolan")
     
     var body: some View {
-        Button("Tap count: \(tapCount)") {
-            tapCount += 1
-            // 1. UserDefaults way to store small amount of data
-//            UserDefaults.standard.set(tapCount, forKey: "Tap")
+        Button("Save User") {
+            let encoder = JSONEncoder()
+            
+            if let data = try? encoder.encode(user) {
+                UserDefaults.standard.set(data, forKey: "UserData")
+            }
         }
     }
 }
