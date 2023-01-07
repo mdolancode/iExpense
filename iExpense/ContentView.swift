@@ -8,33 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-   @State private var numbers = [Int]()
-    @State private var currentNumber = 1
+    // 1. UserDefaults way to store small amount of data
+//    @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
+    
+    // 2. AppStorage works similar to UserDefaults and you can use them together, but AppStorage cannot hold complex data like from structs.
+    @AppStorage("tapCount") private var tapCount = 0
     
     var body: some View {
-        NavigationView {
-            VStack {
-                List {
-                    // onDelete only exists with ForEach
-                    ForEach(numbers, id: \.self) {
-                        Text("Row \($0)")
-                    }
-                    .onDelete(perform: removeRows)
-                }
-                Button("Add Number") {
-                    numbers.append(currentNumber)
-                    currentNumber += 1
-                }
-            }
-            .navigationTitle("onDelete()")
-            .toolbar {
-                EditButton()
-            }
+        Button("Tap count: \(tapCount)") {
+            tapCount += 1
+            // 1. UserDefaults way to store small amount of data
+//            UserDefaults.standard.set(tapCount, forKey: "Tap")
         }
-    }
-    
-    func removeRows(at offsets: IndexSet) {
-        numbers.remove(atOffsets: offsets)
     }
 }
 
