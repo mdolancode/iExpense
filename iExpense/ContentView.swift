@@ -7,13 +7,22 @@
 
 import SwiftUI
 
+class User: ObservableObject {
+    @Published var firstName = "Bilbo"
+    @Published var lastName = "Baggins"
+}
+
 struct ContentView: View {
+    // Use @StateObject when you are making the object for the first time.
+    // When you want to make a class instance elsewhere then use @ObservedObject (when reading it or modifying it, but not creating a new object).
+    @StateObject private var user = User()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Your name is \(user.firstName) \(user.lastName)")
+            
+            TextField("First name", text: $user.firstName)
+            TextField("Last name", text: $user.lastName)
         }
         .padding()
     }
