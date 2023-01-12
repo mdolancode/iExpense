@@ -13,6 +13,7 @@
 		CB3EB7272968F3F9007CDE9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3EB7262968F3F9007CDE9B /* Preview Assets.xcassets */; };
 		CB3EB72E296CB84B007CDE9B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EB72D296CB84B007CDE9B /* ExpenseItem.swift */; };
 		CB3EB730296CBEE6007CDE9B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EB72F296CBEE6007CDE9B /* Expenses.swift */; };
+		CB3EB732296F8B79007CDE9B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EB731296F8B79007CDE9B /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CB3EB7262968F3F9007CDE9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB3EB72D296CB84B007CDE9B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		CB3EB72F296CBEE6007CDE9B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		CB3EB731296F8B79007CDE9B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CB3EB7212968F3F7007CDE9B /* ContentView.swift */,
 				CB3EB72D296CB84B007CDE9B /* ExpenseItem.swift */,
 				CB3EB72F296CBEE6007CDE9B /* Expenses.swift */,
+				CB3EB731296F8B79007CDE9B /* AddView.swift */,
 				CB3EB7232968F3F9007CDE9B /* Assets.xcassets */,
 				CB3EB7252968F3F9007CDE9B /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				CB3EB730296CBEE6007CDE9B /* Expenses.swift in Sources */,
 				CB3EB7222968F3F7007CDE9B /* ContentView.swift in Sources */,
+				CB3EB732296F8B79007CDE9B /* AddView.swift in Sources */,
 				CB3EB72E296CB84B007CDE9B /* ExpenseItem.swift in Sources */,
 				CB3EB7202968F3F7007CDE9B /* iExpenseApp.swift in Sources */,
 			);
