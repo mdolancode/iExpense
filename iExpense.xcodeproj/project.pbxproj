@@ -58,9 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				CB3EB71F2968F3F7007CDE9B /* iExpenseApp.swift */,
-				CB3EB7212968F3F7007CDE9B /* ContentView.swift */,
 				CB3EB72D296CB84B007CDE9B /* ExpenseItem.swift */,
 				CB3EB72F296CBEE6007CDE9B /* Expenses.swift */,
+				CB3EB7212968F3F7007CDE9B /* ContentView.swift */,
 				CB3EB731296F8B79007CDE9B /* AddView.swift */,
 				CB3EB7232968F3F9007CDE9B /* Assets.xcassets */,
 				CB3EB7252968F3F9007CDE9B /* Preview Content */,
