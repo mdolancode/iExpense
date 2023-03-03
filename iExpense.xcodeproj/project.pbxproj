@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5FB85B829B1B64F00C01E5D /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB85B729B1B64F00C01E5D /* FormatStyle-LocalCurrency.swift */; };
+		C5FB85BA29B1B7E000C01E5D /* View-ExpenseStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB85B929B1B7E000C01E5D /* View-ExpenseStyling.swift */; };
+		C5FB85BE29B1BE0200C01E5D /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB85BD29B1BE0200C01E5D /* ExpenseSection.swift */; };
 		CB3EB7202968F3F7007CDE9B /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EB71F2968F3F7007CDE9B /* iExpenseApp.swift */; };
 		CB3EB7222968F3F7007CDE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EB7212968F3F7007CDE9B /* ContentView.swift */; };
 		CB3EB7242968F3F9007CDE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3EB7232968F3F9007CDE9B /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5FB85B729B1B64F00C01E5D /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
+		C5FB85B929B1B7E000C01E5D /* View-ExpenseStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-ExpenseStyling.swift"; sourceTree = "<group>"; };
+		C5FB85BD29B1BE0200C01E5D /* ExpenseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
 		CB3EB71C2968F3F7007CDE9B /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3EB71F2968F3F7007CDE9B /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		CB3EB7212968F3F7007CDE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +66,10 @@
 				CB3EB71F2968F3F7007CDE9B /* iExpenseApp.swift */,
 				CB3EB72D296CB84B007CDE9B /* ExpenseItem.swift */,
 				CB3EB72F296CBEE6007CDE9B /* Expenses.swift */,
+				C5FB85B729B1B64F00C01E5D /* FormatStyle-LocalCurrency.swift */,
+				C5FB85B929B1B7E000C01E5D /* View-ExpenseStyling.swift */,
 				CB3EB7212968F3F7007CDE9B /* ContentView.swift */,
+				C5FB85BD29B1BE0200C01E5D /* ExpenseSection.swift */,
 				CB3EB731296F8B79007CDE9B /* AddView.swift */,
 				CB3EB7232968F3F9007CDE9B /* Assets.xcassets */,
 				CB3EB7252968F3F9007CDE9B /* Preview Content */,
@@ -149,6 +158,9 @@
 				CB3EB730296CBEE6007CDE9B /* Expenses.swift in Sources */,
 				CB3EB7222968F3F7007CDE9B /* ContentView.swift in Sources */,
 				CB3EB732296F8B79007CDE9B /* AddView.swift in Sources */,
+				C5FB85BA29B1B7E000C01E5D /* View-ExpenseStyling.swift in Sources */,
+				C5FB85BE29B1BE0200C01E5D /* ExpenseSection.swift in Sources */,
+				C5FB85B829B1B64F00C01E5D /* FormatStyle-LocalCurrency.swift in Sources */,
 				CB3EB72E296CB84B007CDE9B /* ExpenseItem.swift in Sources */,
 				CB3EB7202968F3F7007CDE9B /* iExpenseApp.swift in Sources */,
 			);
